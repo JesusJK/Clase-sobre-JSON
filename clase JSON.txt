@@ -1,0 +1,24 @@
+JavaScriptObjectNotation = JASON
+
+Los objetos en JSON tiene propiedades con un "{}" al declararla y puedes darles valores a las propiedades
+ejemplo:
+
+const job = "Profesor",
+
+const data = {             // Contante declarada como objeto 
+      name:"Juana",        // Propiedad      (cuando vayas a compartir la propiedad con una archivo plano y dejas la coma da error)
+      age:30,
+key-> job:job,    <-- busca el nombre en todo el codigo del valor de dicha propiedad y se la asigna en este caso la constante "job"
+      active:true,
+      hobbies:[
+              "read books",
+              "play games",
+             "play guitarra"
+             ],                      //coma para seguir con una nueva propiedad
+    studies:{
+               primary:"Argelino Duran",
+               school:"Alfonso Lopez",
+               university:"UFPSO",
+            }
+       }
+Funciones con solo lenguaje Javascript
